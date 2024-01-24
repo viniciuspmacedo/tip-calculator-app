@@ -1,0 +1,26 @@
+.number-input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.number-input-container label {
+    color: var(--dark-gray-sh-cyan);
+    align-self: flex-start;
+}
+
+.number-input-container input {
+    text-align: end;
+    min-width: 303px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-wrapper img {
+    position: absolute;
+    left: 16px;
+}

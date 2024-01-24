@@ -1,0 +1,8 @@
+.btn{
+    border-radius: 8px;
+}
+
+.btn-tip{
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+}
