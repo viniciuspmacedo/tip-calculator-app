@@ -17,4 +17,7 @@ Seus usuários devem ser capazes de:
 - Ver estados de destaque (hover) para todos os elementos interativos na página
 - Calcular a gorjeta correta e o custo total da conta por pessoa
 
+## Desenvolvimento:
 
+Para conclusão do desafio foram utilzadas HTML, CSS e Javascript.
+Foi utilizada a técnica Mobile First para fazer uma aplicação responsiva.
