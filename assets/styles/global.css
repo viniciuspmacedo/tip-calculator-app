@@ -163,6 +163,12 @@ input.tip-input-number {
     padding: 8px 0;
 }
 
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
 @media screen and (min-width: 768px) {
     body {
         height: 100vh;

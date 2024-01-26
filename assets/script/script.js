@@ -17,19 +17,17 @@ customTipElement.addEventListener('input', () => {
 
 billElement.addEventListener('input', showResults)
 
-peopleElement.addEventListener('error', () => {
-
-})
 
 peopleElement.addEventListener('input', () => {
     const errorElement = document.querySelector('.error-message')
-    if (peopleElement.value === '0') {
+    if (peopleElement.value == '0') {
         errorElement.style.display = 'inline-block'
         peopleElement.style.outlineColor = 'red'
-        showResults()
+
     } else {
         errorElement.style.display = 'none';
-        peopleElement.style.outlineColor = 'var(--strong-cyan)'
+        peopleElement.style.outlineColor = 'var(--strong-cyan)';
+        showResults()
     }
 })
 
