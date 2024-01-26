@@ -12,13 +12,13 @@
 
 
   <link rel="stylesheet" href="./assets/styles/global.css">
-  
+
 </head>
 
 <body>
   <header><img src="./assets/images/logo.svg" alt=""></header>
-  <main >
-    <form >
+  <main>
+    <form>
 
       <div class="input-container">
         <label for="bill">Conta</label>
@@ -55,15 +55,16 @@
       </fieldset>
       <div class="input-container">
         <label for="people">Número de pessoas</label>
+        <span class="error-message">Não pode ser zero</span>
         <div class="input-wrapper">
           <img class="input-icon" src="./assets/images/icon-person.svg" alt="a person icon">
-          <input id="people" type="number" min="0" placeholder="0">
+          <input id="people" type="number" min="1" placeholder="0">
         </div>
       </div>
     </form>
 
     <section class="result">
-      
+
       <div class="result-container">
         <div>
           <h3>Gorjeta</h3>
@@ -77,7 +78,7 @@
           <h3>Total</h3>
           <span>/ pessoa</span>
         </div>
-        <div class="result-amount" > $ <span id="total-per-person">0.00</span></div>
+        <div class="result-amount"> $ <span id="total-per-person">0.00</span></div>
       </div>
 
       <button>RESET</button>

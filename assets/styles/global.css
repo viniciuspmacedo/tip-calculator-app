@@ -74,6 +74,20 @@ legend {
     color: var(--grayish-cyan);
 }
 
+input:hover{
+    cursor: pointer;
+}
+
+input[type=number]:focus{
+    outline: 2px solid var(--strong-cyan);
+}
+
+.error-message{
+    color: red;
+    text-align: right;
+    display: none;
+    width: 100%;
+}
 
 .input-wrapper {
     position: relative;
